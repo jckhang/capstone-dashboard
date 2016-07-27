@@ -1,0 +1,64 @@
+body { 
+	margin:0; 
+	padding:0; 
+}
+.nopadding { 
+	padding: 0 !important; 
+	margin: 0 !important;
+}
+
+.sectorContainer {
+	overflow:hidden;
+	background-color: #FFDE01;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 1em;
+	box-shadow: 2px 2px 3px #797979;
+	transition: height 0.5s ease-in-out
+}
+
+.sectortTitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#pie{
+	width: 100px;
+	height: 100px;
+}
+.mapContainer {	
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	width: 100%;
+	height: 100%; 
+	overflow-y: hidden;
+}
+#map {
+	width:70%;
+}
+.detail { 
+	display: block;
+	position: absolute;
+	background-color: #F7F7F7; 
+	top: 0%;
+	left: 70%;
+	overflow-y: auto;
+	width: 30%;
+	height: 100%;
+}
+#placeHolder {
+	position: relative;
+	display: block;
+	z-index: 0;
+	height: 200%
+}
+.detailFrame {
+	top: 0px;
+	left: 70%;
+	height: 100%;
+}
+.override {
+	height: 50px !important;
+}
